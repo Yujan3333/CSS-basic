@@ -1,0 +1,26 @@
+h1 {
+  color: red;
+}
+
+.gallery h1 {
+  color: yellow;
+}
+.headings {
+  color: green;
+}
+.headings h1 {
+  color: rgb(167, 87, 87);
+}
+
+* {
+  font-size: 20px;
+}
+
+/* Here the unordered list below the heading 1 is selected */
+.my-list + ul {
+  list-style: none;
+  color: rgb(128, 17, 231);
+}
+.nav-list > li {
+  color: chocolate;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Forums</h1>
+  <forum action="/Forum_name.html">
+    <label for="user">Username</label>
+    <input required minlength="8" maxlength="10" placeholder="Enter your name here" name="user" type="text" id="user" />
+    <label>Email</label>
+    <input name="email" type="email" />
+    <select name="products" id="product">
+      <option value="Apple">Apple</option>
+      <option value="Ball">Ball</option>
+      <option value="Hamburger">Hamburger</option>
+    </select> <br> <br>
+    <label for="message">Feedback</label><br>
+    <textarea name="message" id="" cols="40" rows="20"></textarea>
+    <button type="submit">Submit</button>
+  </forum>
+</body>
+</html>
